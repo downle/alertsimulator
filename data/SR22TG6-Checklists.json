@@ -9256,5 +9256,3065 @@
                 "sub_steps": []
             }
         ]
+    },
+    {
+        "id": "debug-1",
+        "title": "Checklist for AOA FAIL",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "AOA FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-1-1",
+                "instruction": "1. Check AOA FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-1-2",
+                "instruction": "2. Respond to AOA FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-2",
+        "title": "Checklist for AP MISCOMPARE",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "AP MISCOMPARE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-2-1",
+                "instruction": "1. Check AP MISCOMPARE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-2-2",
+                "instruction": "2. Respond to AP MISCOMPARE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-3",
+        "title": "Checklist for AP/PFD DIF ADC",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "AP/PFD DIF ADC",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-3-1",
+                "instruction": "1. Check AP/PFD DIF ADC status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-3-2",
+                "instruction": "2. Respond to AP/PFD DIF ADC condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-4",
+        "title": "Checklist for AP/PFD DIF AHRS",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "AP/PFD DIF AHRS",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-4-1",
+                "instruction": "1. Check AP/PFD DIF AHRS status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-4-2",
+                "instruction": "2. Respond to AP/PFD DIF AHRS condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-5",
+        "title": "Checklist for FLAP OVERSPEED",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FLAP OVERSPEED",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-5-1",
+                "instruction": "1. Check FLAP OVERSPEED status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-5-2",
+                "instruction": "2. Respond to FLAP OVERSPEED condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-6",
+        "title": "Checklist for ICE DETECT FAIL",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "ICE DETECT FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-6-1",
+                "instruction": "1. Check ICE DETECT FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-6-2",
+                "instruction": "2. Respond to ICE DETECT FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-7",
+        "title": "Checklist for ICING DETECTED",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "ICING DETECTED",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-7-1",
+                "instruction": "1. Check ICING DETECTED status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-7-2",
+                "instruction": "2. Respond to ICING DETECTED condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-8",
+        "title": "Checklist for LRG MAG VAR",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "LRG MAG VAR",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-8-1",
+                "instruction": "1. Check LRG MAG VAR status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-8-2",
+                "instruction": "2. Respond to LRG MAG VAR condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-9",
+        "title": "Checklist for NO ADC MODES",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "NO ADC MODES",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-9-1",
+                "instruction": "1. Check NO ADC MODES status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-9-2",
+                "instruction": "2. Respond to NO ADC MODES condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-10",
+        "title": "Checklist for NO VERT MODES",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "NO VERT MODES",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-10-1",
+                "instruction": "1. Check NO VERT MODES status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-10-2",
+                "instruction": "2. Respond to NO VERT MODES condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-11",
+        "title": "Checklist for SLCT MAG",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "SLCT MAG",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-11-1",
+                "instruction": "1. Check SLCT MAG status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-11-2",
+                "instruction": "2. Respond to SLCT MAG condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-12",
+        "title": "Checklist for SLCT NON-MAG",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "SLCT NON-MAG",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-12-1",
+                "instruction": "1. Check SLCT NON-MAG status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-12-2",
+                "instruction": "2. Respond to SLCT NON-MAG condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-13",
+        "title": "Checklist for AOA OVERHEAT",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "AOA OVERHEAT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-13-1",
+                "instruction": "1. Check AOA OVERHEAT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-13-2",
+                "instruction": "2. Respond to AOA OVERHEAT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-14",
+        "title": "Checklist for SPIN SPIN SPIN",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "SPIN SPIN SPIN",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-14-1",
+                "instruction": "1. Check SPIN SPIN SPIN status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-14-2",
+                "instruction": "2. Respond to SPIN SPIN SPIN condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-15",
+        "title": "Checklist for Autopilot Failed",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "Autopilot Failed",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-15-1",
+                "instruction": "1. Check Autopilot Failed status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-15-2",
+                "instruction": "2. Respond to Autopilot Failed condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-16",
+        "title": "Checklist for Brake failed",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "Brake failed",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-16-1",
+                "instruction": "1. Check Brake failed status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-16-2",
+                "instruction": "2. Respond to Brake failed condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-17",
+        "title": "Checklist for Electric Trim Failed",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "Electric Trim Failed",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-17-1",
+                "instruction": "1. Check Electric Trim Failed status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-17-2",
+                "instruction": "2. Respond to Electric Trim Failed condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-18",
+        "title": "Checklist for Flat Tire",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "Flat Tire",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-18-1",
+                "instruction": "1. Check Flat Tire status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-18-2",
+                "instruction": "2. Respond to Flat Tire condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-19",
+        "title": "Checklist for Lift Transducer has ice",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "Lift Transducer has ice",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-19-1",
+                "instruction": "1. Check Lift Transducer has ice status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-19-2",
+                "instruction": "2. Respond to Lift Transducer has ice condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-20",
+        "title": "Checklist for Windshield ice but not wings",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "Windshield ice but not wings",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-20-1",
+                "instruction": "1. Check Windshield ice but not wings status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-20-2",
+                "instruction": "2. Respond to Windshield ice but not wings condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-21",
+        "title": "Checklist for ADC Failed",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "ADC Failed",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-21-1",
+                "instruction": "1. Check ADC Failed status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-21-2",
+                "instruction": "2. Respond to ADC Failed condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-22",
+        "title": "Checklist for AHRS Failed",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "AHRS Failed",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-22-1",
+                "instruction": "1. Check AHRS Failed status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-22-2",
+                "instruction": "2. Respond to AHRS Failed condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-23",
+        "title": "Checklist for Anti Ice Failed",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Anti Ice Failed",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-23-1",
+                "instruction": "1. Check Anti Ice Failed status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-23-2",
+                "instruction": "2. Respond to Anti Ice Failed condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-24",
+        "title": "Checklist for Cabin Fire",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Cabin Fire",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-24-1",
+                "instruction": "1. Check Cabin Fire status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-24-2",
+                "instruction": "2. Respond to Cabin Fire condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-25",
+        "title": "Checklist for Engine Failed",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Engine Failed",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-25-1",
+                "instruction": "1. Check Engine Failed status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-25-2",
+                "instruction": "2. Respond to Engine Failed condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-26",
+        "title": "Checklist for Engine Fire",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Engine Fire",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-26-1",
+                "instruction": "1. Check Engine Fire status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-26-2",
+                "instruction": "2. Respond to Engine Fire condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-27",
+        "title": "Checklist for Manifold Pressure is dropping",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Manifold Pressure is dropping",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-27-1",
+                "instruction": "1. Check Manifold Pressure is dropping status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-27-2",
+                "instruction": "2. Respond to Manifold Pressure is dropping condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-28",
+        "title": "Checklist for Partial Power Loss",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Partial Power Loss",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-28-1",
+                "instruction": "1. Check Partial Power Loss status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-28-2",
+                "instruction": "2. Respond to Partial Power Loss condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-29",
+        "title": "Checklist for Wing Fire",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Wing Fire",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-29-1",
+                "instruction": "1. Check Wing Fire status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-29-2",
+                "instruction": "2. Respond to Wing Fire condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-30",
+        "title": "Checklist for AOA OVERHEAT2",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "AOA OVERHEAT2",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-30-1",
+                "instruction": "1. Check AOA OVERHEAT2 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-30-2",
+                "instruction": "2. Respond to AOA OVERHEAT2 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-31",
+        "title": "Checklist for APPROACH SPEED",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "APPROACH SPEED",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-31-1",
+                "instruction": "1. Check APPROACH SPEED status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-31-2",
+                "instruction": "2. Respond to APPROACH SPEED condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-32",
+        "title": "Checklist for AUTO DESCENT",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "AUTO DESCENT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-32-1",
+                "instruction": "1. Check AUTO DESCENT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-32-2",
+                "instruction": "2. Respond to AUTO DESCENT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-33",
+        "title": "Checklist for ESSENTIAL BUS VOLTS",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "ESSENTIAL BUS VOLTS",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-33-1",
+                "instruction": "1. Check ESSENTIAL BUS VOLTS status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-33-2",
+                "instruction": "2. Respond to ESSENTIAL BUS VOLTS condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-34",
+        "title": "Checklist for IPS CONTROL FAIL",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "IPS CONTROL FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-34-1",
+                "instruction": "1. Check IPS CONTROL FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-34-2",
+                "instruction": "2. Respond to IPS CONTROL FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-35",
+        "title": "Checklist for IPS FLUID LOW",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "IPS FLUID LOW",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-35-1",
+                "instruction": "1. Check IPS FLUID LOW status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-35-2",
+                "instruction": "2. Respond to IPS FLUID LOW condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-36",
+        "title": "Checklist for MAIN BUS 1 VOLTS",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "MAIN BUS 1 VOLTS",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-36-1",
+                "instruction": "1. Check MAIN BUS 1 VOLTS status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-36-2",
+                "instruction": "2. Respond to MAIN BUS 1 VOLTS condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-37",
+        "title": "Checklist for MAIN BUS 2 VOLTS",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "MAIN BUS 2 VOLTS",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-37-1",
+                "instruction": "1. Check MAIN BUS 2 VOLTS status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-37-2",
+                "instruction": "2. Respond to MAIN BUS 2 VOLTS condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-38",
+        "title": "Checklist for MANIFOLD PRESSURE",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "MANIFOLD PRESSURE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-38-1",
+                "instruction": "1. Check MANIFOLD PRESSURE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-38-2",
+                "instruction": "2. Respond to MANIFOLD PRESSURE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-39",
+        "title": "Checklist for OXYGEN REQUIRED1",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "OXYGEN REQUIRED1",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-39-1",
+                "instruction": "1. Check OXYGEN REQUIRED1 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-39-2",
+                "instruction": "2. Respond to OXYGEN REQUIRED1 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-40",
+        "title": "Checklist for STALL",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "STALL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-40-1",
+                "instruction": "1. Check STALL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-40-2",
+                "instruction": "2. Respond to STALL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-41",
+        "title": "Checklist for STALL WARNING FAIL",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "STALL WARNING FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-41-1",
+                "instruction": "1. Check STALL WARNING FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-41-2",
+                "instruction": "2. Respond to STALL WARNING FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-42",
+        "title": "Checklist for STARTER ENGAGED",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "STARTER ENGAGED",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-42-1",
+                "instruction": "1. Check STARTER ENGAGED status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-42-2",
+                "instruction": "2. Respond to STARTER ENGAGED condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-43",
+        "title": "Checklist for ALTERNATOR 1 CURRENT",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "ALTERNATOR 1 CURRENT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-43-1",
+                "instruction": "1. Check ALTERNATOR 1 CURRENT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-43-2",
+                "instruction": "2. Respond to ALTERNATOR 1 CURRENT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-44",
+        "title": "Checklist for ALTERNATOR 2 CURRENT",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "ALTERNATOR 2 CURRENT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-44-1",
+                "instruction": "1. Check ALTERNATOR 2 CURRENT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-44-2",
+                "instruction": "2. Respond to ALTERNATOR 2 CURRENT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-45",
+        "title": "Checklist for AOA HEAT FAIL 3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "AOA HEAT FAIL 3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-45-1",
+                "instruction": "1. Check AOA HEAT FAIL 3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-45-2",
+                "instruction": "2. Respond to AOA HEAT FAIL 3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-46",
+        "title": "Checklist for BATTERY 1 CURRENT",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "BATTERY 1 CURRENT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-46-1",
+                "instruction": "1. Check BATTERY 1 CURRENT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-46-2",
+                "instruction": "2. Respond to BATTERY 1 CURRENT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-47",
+        "title": "Checklist for BATTERY 1 FAIL",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "BATTERY 1 FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-47-1",
+                "instruction": "1. Check BATTERY 1 FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-47-2",
+                "instruction": "2. Respond to BATTERY 1 FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-48",
+        "title": "Checklist for BATTERY 1 FAULT",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "BATTERY 1 FAULT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-48-1",
+                "instruction": "1. Check BATTERY 1 FAULT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-48-2",
+                "instruction": "2. Respond to BATTERY 1 FAULT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-49",
+        "title": "Checklist for BATTERY 1 LOW",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "BATTERY 1 LOW",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-49-1",
+                "instruction": "1. Check BATTERY 1 LOW status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-49-2",
+                "instruction": "2. Respond to BATTERY 1 LOW condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-50",
+        "title": "Checklist for FLAPS AIRSPEED INHIBIT",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FLAPS AIRSPEED INHIBIT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-50-1",
+                "instruction": "1. Check FLAPS AIRSPEED INHIBIT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-50-2",
+                "instruction": "2. Respond to FLAPS AIRSPEED INHIBIT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-51",
+        "title": "Checklist for FLAPS DISAGREE",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FLAPS DISAGREE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-51-1",
+                "instruction": "1. Check FLAPS DISAGREE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-51-2",
+                "instruction": "2. Respond to FLAPS DISAGREE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-52",
+        "title": "Checklist for FLAPS FAIL",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FLAPS FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-52-1",
+                "instruction": "1. Check FLAPS FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-52-2",
+                "instruction": "2. Respond to FLAPS FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-53",
+        "title": "Checklist for FLAPS SELECTOR FAIL",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FLAPS SELECTOR FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-53-1",
+                "instruction": "1. Check FLAPS SELECTOR FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-53-2",
+                "instruction": "2. Respond to FLAPS SELECTOR FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-54",
+        "title": "Checklist for FUEL PUMP OFF",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FUEL PUMP OFF",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-54-1",
+                "instruction": "1. Check FUEL PUMP OFF status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-54-2",
+                "instruction": "2. Respond to FUEL PUMP OFF condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-55",
+        "title": "Checklist for FUEL QTY MISCOMP",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FUEL QTY MISCOMP",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-55-1",
+                "instruction": "1. Check FUEL QTY MISCOMP status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-55-2",
+                "instruction": "2. Respond to FUEL QTY MISCOMP condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-56",
+        "title": "Checklist for FUEL VALVE AUTO FAIL",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "FUEL VALVE AUTO FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-56-1",
+                "instruction": "1. Check FUEL VALVE AUTO FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-56-2",
+                "instruction": "2. Respond to FUEL VALVE AUTO FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-57",
+        "title": "Checklist for HYPOXIA ALERT",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "HYPOXIA ALERT",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-57-1",
+                "instruction": "1. Check HYPOXIA ALERT status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-57-2",
+                "instruction": "2. Respond to HYPOXIA ALERT condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-58",
+        "title": "Checklist for IPS FLUID LOW3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "IPS FLUID LOW3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-58-1",
+                "instruction": "1. Check IPS FLUID LOW3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-58-2",
+                "instruction": "2. Respond to IPS FLUID LOW3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-59",
+        "title": "Checklist for IPS IMBALANCE3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "IPS IMBALANCE3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-59-1",
+                "instruction": "1. Check IPS IMBALANCE3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-59-2",
+                "instruction": "2. Respond to IPS IMBALANCE3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-60",
+        "title": "Checklist for IPS PRESSURE HIGH3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "IPS PRESSURE HIGH3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-60-1",
+                "instruction": "1. Check IPS PRESSURE HIGH3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-60-2",
+                "instruction": "2. Respond to IPS PRESSURE HIGH3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-61",
+        "title": "Checklist for IPS PRESSURE LOW 3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "IPS PRESSURE LOW 3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-61-1",
+                "instruction": "1. Check IPS PRESSURE LOW 3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-61-2",
+                "instruction": "2. Respond to IPS PRESSURE LOW 3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-62",
+        "title": "Checklist for IPS SPEED HIGH 3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "IPS SPEED HIGH 3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-62-1",
+                "instruction": "1. Check IPS SPEED HIGH 3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-62-2",
+                "instruction": "2. Respond to IPS SPEED HIGH 3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-63",
+        "title": "Checklist for IPS SPEED LOW 3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "IPS SPEED LOW 3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-63-1",
+                "instruction": "1. Check IPS SPEED LOW 3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-63-2",
+                "instruction": "2. Respond to IPS SPEED LOW 3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-64",
+        "title": "Checklist for IPS TEMP LOW 3",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "IPS TEMP LOW 3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-64-1",
+                "instruction": "1. Check IPS TEMP LOW 3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-64-2",
+                "instruction": "2. Respond to IPS TEMP LOW 3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-65",
+        "title": "Checklist for PROBE HEAT OFF",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "PROBE HEAT OFF",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-65-1",
+                "instruction": "1. Check PROBE HEAT OFF status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-65-2",
+                "instruction": "2. Respond to PROBE HEAT OFF condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-66",
+        "title": "Checklist for SFD ALT MISCOMPARE",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "SFD ALT MISCOMPARE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-66-1",
+                "instruction": "1. Check SFD ALT MISCOMPARE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-66-2",
+                "instruction": "2. Respond to SFD ALT MISCOMPARE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-67",
+        "title": "Checklist for SFD IAS MISCOMPARE",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "SFD IAS MISCOMPARE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-67-1",
+                "instruction": "1. Check SFD IAS MISCOMPARE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-67-2",
+                "instruction": "2. Respond to SFD IAS MISCOMPARE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-68",
+        "title": "Checklist for SFD PITCH MISCOMPARE",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "SFD PITCH MISCOMPARE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-68-1",
+                "instruction": "1. Check SFD PITCH MISCOMPARE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-68-2",
+                "instruction": "2. Respond to SFD PITCH MISCOMPARE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-69",
+        "title": "Checklist for SFD ROLL MISCOMPARE",
+        "section": "ABNORMAL",
+        "subsection": null,
+        "cas": "SFD ROLL MISCOMPARE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-69-1",
+                "instruction": "1. Check SFD ROLL MISCOMPARE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-69-2",
+                "instruction": "2. Respond to SFD ROLL MISCOMPARE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-70",
+        "title": "Checklist for AOA FAIL2",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "AOA FAIL2",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-70-1",
+                "instruction": "1. Check AOA FAIL2 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-70-2",
+                "instruction": "2. Respond to AOA FAIL2 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-71",
+        "title": "Checklist for ARE YOU ALERT?",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "ARE YOU ALERT?",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-71-1",
+                "instruction": "1. Check ARE YOU ALERT? status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-71-2",
+                "instruction": "2. Respond to ARE YOU ALERT? condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-72",
+        "title": "Checklist for COURSE SELECT1",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "COURSE SELECT1",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-72-1",
+                "instruction": "1. Check COURSE SELECT1 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-72-2",
+                "instruction": "2. Respond to COURSE SELECT1 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-73",
+        "title": "Checklist for ECS RECIRC ON",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "ECS RECIRC ON",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-73-1",
+                "instruction": "1. Check ECS RECIRC ON status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-73-2",
+                "instruction": "2. Respond to ECS RECIRC ON condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-74",
+        "title": "Checklist for ESP CONFIG",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "ESP CONFIG",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-74-1",
+                "instruction": "1. Check ESP CONFIG status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-74-2",
+                "instruction": "2. Respond to ESP CONFIG condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-75",
+        "title": "Checklist for EXIT ICING2 1",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "EXIT ICING2 1",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-75-1",
+                "instruction": "1. Check EXIT ICING2 1 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-75-2",
+                "instruction": "2. Respond to EXIT ICING2 1 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-76",
+        "title": "Checklist for FAILED PATH",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "FAILED PATH",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-76-1",
+                "instruction": "1. Check FAILED PATH status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-76-2",
+                "instruction": "2. Respond to FAILED PATH condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-77",
+        "title": "Checklist for FUEL VALVE OFF",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "FUEL VALVE OFF",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-77-1",
+                "instruction": "1. Check FUEL VALVE OFF status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-77-2",
+                "instruction": "2. Respond to FUEL VALVE OFF condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-78",
+        "title": "Checklist for IPS FLUID LOW2",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "IPS FLUID LOW2",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-78-1",
+                "instruction": "1. Check IPS FLUID LOW2 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-78-2",
+                "instruction": "2. Respond to IPS FLUID LOW2 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-79",
+        "title": "Checklist for IPS PUMP BACKUP3",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "IPS PUMP BACKUP3",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-79-1",
+                "instruction": "1. Check IPS PUMP BACKUP3 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-79-2",
+                "instruction": "2. Respond to IPS PUMP BACKUP3 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-80",
+        "title": "Checklist for OXYGEN ON1",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "OXYGEN ON1",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-80-1",
+                "instruction": "1. Check OXYGEN ON1 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-80-2",
+                "instruction": "2. Respond to OXYGEN ON1 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-81",
+        "title": "Checklist for ROL MODE",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "ROL MODE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-81-1",
+                "instruction": "1. Check ROL MODE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-81-2",
+                "instruction": "2. Respond to ROL MODE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-82",
+        "title": "Checklist for SFC WATCH FAIL",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "SFC WATCH FAIL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-82-1",
+                "instruction": "1. Check SFC WATCH FAIL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-82-2",
+                "instruction": "2. Respond to SFC WATCH FAIL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-83",
+        "title": "Checklist for SFC WATCH INHIB",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "SFC WATCH INHIB",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-83-1",
+                "instruction": "1. Check SFC WATCH INHIB status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-83-2",
+                "instruction": "2. Respond to SFC WATCH INHIB condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-84",
+        "title": "Checklist for SFD NO COMPARE",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "SFD NO COMPARE",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-84-1",
+                "instruction": "1. Check SFD NO COMPARE status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-84-2",
+                "instruction": "2. Respond to SFD NO COMPARE condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-85",
+        "title": "Checklist for VNAV ALT SEL",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "VNAV ALT SEL",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-85-1",
+                "instruction": "1. Check VNAV ALT SEL status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-85-2",
+                "instruction": "2. Respond to VNAV ALT SEL condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-86",
+        "title": "Checklist for VNAV NOT ARMED",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "VNAV NOT ARMED",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-86-1",
+                "instruction": "1. Check VNAV NOT ARMED status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-86-2",
+                "instruction": "2. Respond to VNAV NOT ARMED condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-87",
+        "title": "Checklist for SMOKE/FIRE/FUMES",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "SMOKE/FIRE/FUMES",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-87-1",
+                "instruction": "1. Check SMOKE/FIRE/FUMES status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-87-2",
+                "instruction": "2. Respond to SMOKE/FIRE/FUMES condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-88",
+        "title": "Checklist for Smoke Evacuation",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Smoke Evacuation",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-88-1",
+                "instruction": "1. Check Smoke Evacuation status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-88-2",
+                "instruction": "2. Respond to Smoke Evacuation condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-89",
+        "title": "Checklist for Emergency Evacuation",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Emergency Evacuation",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-89-1",
+                "instruction": "1. Check Emergency Evacuation status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-89-2",
+                "instruction": "2. Respond to Emergency Evacuation condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-90",
+        "title": "Checklist for Dual Engine Failure",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Dual Engine Failure",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-90-1",
+                "instruction": "1. Check Dual Engine Failure status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-90-2",
+                "instruction": "2. Respond to Dual Engine Failure condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-91",
+        "title": "Checklist for Elec Emergency",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Elec Emergency",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-91-1",
+                "instruction": "1. Check Elec Emergency status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-91-2",
+                "instruction": "2. Respond to Elec Emergency condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-92",
+        "title": "Checklist for Elec XFR Fail",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Elec XFR Fail",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-92-1",
+                "instruction": "1. Check Elec XFR Fail status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-92-2",
+                "instruction": "2. Respond to Elec XFR Fail condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-93",
+        "title": "Checklist for Engine Abnormal Start",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Engine Abnormal Start",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-93-1",
+                "instruction": "1. Check Engine Abnormal Start status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-93-2",
+                "instruction": "2. Respond to Engine Abnormal Start condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-94",
+        "title": "Checklist for E1 (2) Engine Fire",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "E1 (2) Engine Fire",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-94-1",
+                "instruction": "1. Check E1 (2) Engine Fire status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-94-2",
+                "instruction": "2. Respond to E1 (2) Engine Fire condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-95",
+        "title": "Checklist for Cabine Altitude High",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Cabine Altitude High",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-95-1",
+                "instruction": "1. Check Cabine Altitude High status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-95-2",
+                "instruction": "2. Respond to Cabine Altitude High condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-96",
+        "title": "Checklist for Emergency Descent",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Emergency Descent",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-96-1",
+                "instruction": "1. Check Emergency Descent status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-96-2",
+                "instruction": "2. Respond to Emergency Descent condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-97",
+        "title": "Checklist for Gear Lever",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Gear Lever",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-97-1",
+                "instruction": "1. Check Gear Lever status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-97-2",
+                "instruction": "2. Respond to Gear Lever condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-98",
+        "title": "Checklist for Inadvertent Pusher Activation",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Inadvertent Pusher Activation",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-98-1",
+                "instruction": "1. Check Inadvertent Pusher Activation status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-98-2",
+                "instruction": "2. Respond to Inadvertent Pusher Activation condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-99",
+        "title": "Checklist for LG Vow SYS Fail",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "LG Vow SYS Fail",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-99-1",
+                "instruction": "1. Check LG Vow SYS Fail status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-99-2",
+                "instruction": "2. Respond to LG Vow SYS Fail condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-100",
+        "title": "Checklist for Takeoff Engine Failure Above V1",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Takeoff Engine Failure Above V1",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-100-1",
+                "instruction": "1. Check Takeoff Engine Failure Above V1 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-100-2",
+                "instruction": "2. Respond to Takeoff Engine Failure Above V1 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-101",
+        "title": "Checklist for Rejected Takeoff below V1",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Rejected Takeoff below V1",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-101-1",
+                "instruction": "1. Check Rejected Takeoff below V1 status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-101-2",
+                "instruction": "2. Respond to Rejected Takeoff below V1 condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
+    },
+    {
+        "id": "debug-102",
+        "title": "Checklist for Windshear",
+        "section": "EMERGENCY",
+        "subsection": null,
+        "cas": "Windshear",
+        "cas_type": null,
+        "cas_description": null,
+        "alert_message": null,
+        "steps": [
+            {
+                "id": "debug-step-102-1",
+                "instruction": "1. Check Windshear status",
+                "action": "VERIFY",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "1",
+                "sub_steps": []
+            },
+            {
+                "id": "debug-step-102-2",
+                "instruction": "2. Respond to Windshear condition",
+                "action": "AS REQUIRED",
+                "is_conditional": false,
+                "indent_level": 0,
+                "step_number": "2",
+                "sub_steps": []
+            }
+        ]
     }
 ]

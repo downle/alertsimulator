@@ -1,13 +1,14 @@
 import SwiftUI
 import Foundation
 
-// Improved version that uses checklists
+// Pure JSON-based implementation with no hardcoded fallbacks
 struct ChecklistView: View {
     let alertMessage: String
     @Environment(\.dismiss) private var dismiss
     @State private var isLoading = true
     @State private var title: String = ""
     @State private var steps: [(instruction: String, action: String, isConditional: Bool, indentLevel: Int)] = []
+    @State private var errorMessage: String? = nil
     
     var body: some View {
         VStack {
@@ -15,9 +16,7 @@ struct ChecklistView: View {
                 Text("Checklist")
                     .font(.headline)
                     .padding()
-                
                 Spacer()
-                
                 Button(action: {
                     dismiss()
                 }) {
@@ -67,6 +66,13 @@ struct ChecklistView: View {
                         .font(.subheadline)
                         .foregroundColor(.gray)
                         .padding()
+                    
+                    if let errorMessage = errorMessage {
+                        Text("Error: \(errorMessage)")
+                            .font(.footnote)
+                            .foregroundColor(.red)
+                            .padding()
+                    }
                 }
                 .padding()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -80,67 +86,97 @@ struct ChecklistView: View {
         }
     }
     
+    // Structures to match SR22TG6-Checklists.json format
+    struct ChecklistData: Codable {
+        let id: String
+        let title: String
+        let section: String
+        let subsection: String?
+        let cas: String?
+        let cas_type: String?
+        let cas_description: String?
+        let alert_message: String?
+        let steps: [ChecklistStepData]
+    }
+    
+    struct ChecklistStepData: Codable {
+        let id: String
+        let instruction: String
+        let action: String
+        let is_conditional: Bool
+        let indent_level: Int
+        let step_number: String
+        let sub_steps: [ChecklistStepData]
+    }
+    
     private func loadChecklist() {
-        // This is a simplified version with hardcoded data for the most common alerts
-        switch alertMessage.uppercased() {
-        case "ALT 1":
-            title = "Low Alternator 1 Output"
-            steps = [
-                ("1. ALT 1 Circuit Breaker", "CHECK & SET", false, 0),
-                ("2. ALT 1 Switch", "CYCLE", false, 0),
-                ("If alternator does not reset:", "", true, 0),
-                ("3. ALT 1 Switch", "OFF", false, 1),
-                ("4. Non-Essential Bus Loads", "REDUCE", false, 1),
-                ("If flight conditions permit, consider shedding the following to preserve Battery 1:", "", true, 1),
-                ("Air Conditioning", "", false, 2),
-                ("Landing Light", "", false, 2),
-                ("Yaw Servo", "", false, 2),
-                ("Convenience Power (aux items plugged into armrest jack)", "", false, 2),
-                ("EVS Camera (if installed)", "", false, 2),
-                ("5. Continue Flight, avoiding IMC or night flight as able (reduced power redundancy).", "", false, 0)
-            ]
-        case "ALT 2":
-            title = "Low Alternator 2 Output"
-            steps = [
-                ("1. ALT 2 Circuit Breaker", "CHECK & SET", false, 0),
-                ("2. ALT 2 Switch", "CYCLE", false, 0),
-                ("If alternator does not reset:", "", true, 0),
-                ("3. ALT 2 Switch", "OFF", false, 1),
-                ("4. Continue Flight, avoiding IMC or night flight as able (reduced power redundancy).", "", false, 0)
-            ]
-        case "FUEL LOW TOTAL":
-            title = "Low Fuel Quantity"
-            steps = [
-                ("1. Fuel Quantity Gauges", "CHECK", false, 0),
-                ("2. Land as soon as practical", "", false, 0)
-            ]
-        case "OIL PRESS":
-            title = "Low Idle Oil Pressure"
-            steps = [
-                ("1. If pressure is below 10 PSI at idle:", "", true, 0),
-                ("Increase RPM to 1000 or higher", "", false, 1),
-                ("2. If pressure remains below 30 PSI at higher RPM:", "", true, 0),
-                ("Land as soon as practical", "", false, 1),
-                ("3. If pressure falls below 10 PSI at higher RPM:", "", true, 0),
-                ("Land immediately", "", false, 1)
-            ]
-        case "ALT AIR OPEN":
-            title = "Alternate Air Door Open"
-            steps = [
-                ("1. Engine Controls", "ADJUST", false, 0),
-                ("2. Airspeed", "REDUCE", false, 0),
-                ("If alternate air door remains open:", "", true, 0),
-                ("3. Anticipate reduced engine performance", "", false, 1)
-            ]
-        case "FLAP OVERSPEED":
-            title = "Flaps Overspeed"
-            steps = [
-                ("1. Airspeed", "REDUCE", false, 0),
-                ("2. Flaps", "RETRACT TO 50% OR 0%", false, 0)
-            ]
-        default:
+        // Debug logging
+        print("Loading checklist for alert message: \(alertMessage)")
+        
+        // Load from JSON file
+        if let url = Bundle.main.url(forResource: "SR22TG6-Checklists", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let checklists = try decoder.decode([ChecklistData].self, from: data)
+                
+                print("Successfully loaded \(checklists.count) checklists from JSON")
+                
+                // Find all checklists that match the alert message
+                let matchingChecklists = checklists.filter { 
+                    ($0.cas?.uppercased() == alertMessage.uppercased()) || 
+                    ($0.alert_message?.uppercased() == alertMessage.uppercased())
+                }
+                
+                print("Found \(matchingChecklists.count) matching checklists for \(alertMessage)")
+                
+                if let checklist = matchingChecklists.first {
+                    print("Using checklist: \(checklist.title)")
+                    title = checklist.title
+                    
+                    // Convert checklist steps to the format expected by the view
+                    var convertedSteps: [(instruction: String, action: String, isConditional: Bool, indentLevel: Int)] = []
+                    
+                    // Function to recursively process steps and sub-steps
+                    func processSteps(_ steps: [ChecklistStepData], parentIndentLevel: Int = 0) {
+                        for step in steps {
+                            convertedSteps.append((
+                                instruction: step.instruction,
+                                action: step.action,
+                                isConditional: step.is_conditional,
+                                indentLevel: step.indent_level + parentIndentLevel
+                            ))
+                            
+                            // Process sub-steps recursively
+                            if !step.sub_steps.isEmpty {
+                                processSteps(step.sub_steps, parentIndentLevel: step.indent_level + 1)
+                            }
+                        }
+                    }
+                    
+                    processSteps(checklist.steps)
+                    steps = convertedSteps
+                } else {
+                    print("No matching checklist found for \(alertMessage)")
+                    title = ""
+                    steps = []
+                    errorMessage = "No matching checklist found in SR22TG6-Checklists.json"
+                    
+                    // Debug: List all available CAS values
+                    let allCasValues = checklists.compactMap { $0.cas }.sorted()
+                    print("Available CAS values: \(allCasValues)")
+                }
+            } catch {
+                print("Error loading checklist from JSON: \(error)")
+                title = ""
+                steps = []
+                errorMessage = "Error loading checklist: \(error.localizedDescription)"
+            }
+        } else {
+            print("SR22TG6-Checklists.json file not found in bundle")
             title = ""
             steps = []
+            errorMessage = "SR22TG6-Checklists.json file not found in bundle"
         }
         
         isLoading = false
@@ -187,4 +223,4 @@ struct ChecklistStepView: View {
         }
         .padding(.vertical, 4)
     }
-} 
+}
